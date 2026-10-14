@@ -1,0 +1,4 @@
+
+# ObraGo - secretos (NUNCA subir a GitHub)
+.env
+serviceAccountKey.json
