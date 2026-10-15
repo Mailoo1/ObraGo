@@ -157,28 +157,6 @@ Creados por `npm run seed`. Contraseña de todos: `ObraGo123!`
 
 Son solo datos de prueba. Para producción, usa un proyecto de Firebase distinto y empieza con la base vacía.
 
-### Scripts
-
-| Comando | Qué hace |
-|---|---|
-| `npm run seed` | Carga datos de prueba |
-| `npm run demo` | Demo del flujo completo en consola |
-| `npm run typecheck` | Revisa los tipos de TypeScript |
-
-## Seguridad
-
-- Nunca subas `.env` ni `serviceAccountKey.json`: están en `.gitignore`. La segunda es una llave de administrador de Firebase.
-- Un pedido solo lo ven el cliente que lo hizo, la ferretería elegida y el administrador.
-- Los precios del pedido se leen de la base de datos, no de lo que envíe la pantalla.
-- Solo se puede calificar un pedido finalizado, una sola vez.
-
-## Problemas comunes
-
-- **Expo Go no conecta con el celular:** deben estar en el mismo Wi-Fi, con Node permitido en el firewall de Windows.
-- **Metro se traba o da errores de archivos:** no guardes el proyecto dentro de OneDrive; muévelo a una carpeta como `C:\dev`.
-- **`auth/operation-not-allowed`:** falta activar el método de correo y contraseña en Firebase Authentication.
-- **`The query requires an index`:** despliega los índices o abre el enlace que trae el error.
-
 ## Limitaciones conocidas
 
 - El promedio de calificaciones lo actualiza la propia app con reglas estrictas; en producción debería hacerlo una Cloud Function.
@@ -196,6 +174,6 @@ Son solo datos de prueba. Para producción, usa un proyecto de Firebase distinto
 
 ## Autor
 
-Proyecto de [TU NOMBRE] · [NOMBRE DE LA UNIVERSIDAD] · [MATERIA] · 2026
+Proyecto de Juan Camilo Garcia · Luis Amigó · 2026
 
-Prototipo de diseño en Figma: [PEGA AQUÍ EL LINK]
+
